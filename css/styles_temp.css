@@ -1,0 +1,47 @@
+header{
+    background: lightblue;
+}
+
+main{
+    background: lightcyan;
+}
+
+footer{
+    background: lightblue;
+}
+
+.container{
+    background: lightgray;
+}
+
+.container-skills{
+    background-color: red;
+}
+
+nav {
+    background: lightgreen;
+}
+
+.container-text{
+    background-color:blueviolet;
+}
+
+.section-about{
+    background-color:aquamarine;
+}
+
+.section-jobs{
+    background-color:crimson;
+}
+
+.section-skills{
+    background-color:deeppink;
+}
+
+.section-contact{
+    background-color:blue;
+}
+
+.section-socialMedia{
+    background-color:gold;
+}

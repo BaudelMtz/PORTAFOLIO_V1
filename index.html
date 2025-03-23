@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- La etiqueta <head> contiene información sobre el documento, como metadatos, enlaces a hojas de estilo y scripts -->
+
+<head>
+  <!-- La etiqueta <meta> define metadatos del documento, como la codificación de caracteres -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Fuentes tipográficas -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet" />
+
+  <!-- La etiqueta <link> se usa para enlazar recursos externos, como hojas de estilo o fuentes tipograficas -->
+
+  <!-- Hoja de estilos -->
+  <link rel="stylesheet" href="/css/normalize.css" />
+  <link rel="stylesheet" href="/css/styles.css" />
+
+  <!-- La etiqueta <script> se usa para incluir archivos de JavaScript que agregan funcionalidad al sitio web -->
+  <!-- Scripts -->
+  <script src="./js/modernizr-custom.js"></script>
+
+  <!-- La etiqueta <title> define el título de la página que aparece en la pestaña del navegador -->
+  <title>Mi Portafolio</title>
+</head>
+
+<body>
+  <!-- La etiqueta <header> representa la sección de encabezado de la página, donde generalmente se coloca el logo y la navegación -->
+  <header>
+    <!-- Contenedor principal -->
+    <div class="container">
+      <!-- Menú de navegación -->
+      <nav class="menu">
+        <!-- Enlaces de navegación -->
+        <a href="#">Inicio</a>
+        <a href="#">Acerca de</a>
+        <a href="#">Trabajos</a>
+        <a href="#">Habilidades</a>
+        <a href="#">Contacto</a>
+      </nav>
+
+      <!-- Contenedor para el texto de presentacion -->
+      <div class="container-text">
+        <div class="text">
+          <!-- Títulos: Se recomienda usar solo un <h1> por página para la jerarquía correcta -->
+          <h1 class="name">David Baudelio Martinez</h1>
+          <h2 class="profession">Estudiante de Ingenieria en Software</h2>
+
+          <!-- Botón para descargar el CV -->
+          <button class="btn-cv">Descargar CV <i class="fa-solid fa-download"></i></button>
+        </div>
+      </div>
+    </div>
+
+  </header>
+  <!-- La etiqueta <main> contiene el contenido principal de la página -->
+  <main>
+    <section id="section-about">
+      <!-- El atributo "id" se usa para identificar un único elemento en la pagina. Debe ser único y no repetirse en otros elementos. -->
+      <!-- Contenedor principal de la sección "Acerca de" -->
+      <div class="container">
+        <!-- Contenedor de la imagen de perfil. -->
+        <div class="photo">
+          <img src="./img/foto_perfil.jpg" alt="David Baudelio Martinez"/>
+        </div>
+        <!-- Contenedor del texto descriptivo. -->
+        <div class="text">
+          <h3 class="title">Acerca de</h3>
+          <!-- El atributo "class" se usa para definir un grupo de elementos con características similares.
+                 Puede aplicarse a múltiples elementos en la misma página. -->
+          <!-- Etiqueta <p>: Se usa para definir párrafos de texto. -->
+            <p>
+              Mi nombre es <span class="bold">David Baudelio Martinez Valdez</span>, soy estudiante de 
+              <span class="bold">6to semestre</span> de la carrera de 
+              <span class="bold">Ingeniería en Software</span> en la 
+              <span class="bold">Universidad Estatal de Sonora (UES)</span>.
+            </p>                       
+        </div>
+      </div>
+    </section>
+
+    <section id="section-jobs">
+      <div class="container">
+        <h3 class="title">Trabajos</h3>
+        <div class="container-jobs">
+          <div class="job">
+            <div class="thumb">
+              <img src="img/foto_perfil.jpg" alt="Lorem Ipsum" />
+            </div>
+            <div class="description">
+              <p class="name">Lorem Ipsum</p>
+              <p class="category">HTML - CSS - PHP</p>
+            </div>
+          </div>
+
+          <div class="job">
+            <div class="thumb">
+              <img src="img/trabajo2.png" alt="Lorem Ipsum" />
+            </div>
+            <div class="description">
+              <p class="name">Lorem Ipsum</p>
+              <p class="category">HTML - CSS - PHP</p>
+            </div>
+          </div>
+
+          <div class="job">
+            <div class="thumb">
+              <img src="img/trabajo3.jpg" alt="Lorem Ipsum" />
+            </div>
+            <div class="description">
+              <p class="name">Lorem Ipsum</p>
+              <p class="category">HTML - CSS - PHP</p>
+            </div>
+          </div>
+
+          <div class="job">
+            <div class="thumb">
+              <img src="img/trabajo4.jpg" alt="Lorem Ipsum" />
+            </div>
+            <div class="description">
+              <p class="name">Lorem Ipsum</p>
+              <p class="category">HTML - CSS - PHP</p>
+            </div>
+          </div>
+
+          <div class="job">
+            <div class="thumb">
+              <img src="img/trabajo5.jpg" alt="Lorem Ipsum" />
+            </div>
+            <div class="description">
+              <p class="name">Lorem Ipsum</p>
+              <p class="category">HTML - CSS - PHP</p>
+            </div>
+          </div>
+
+          <div class="job">
+            <div class="thumb">
+              <img src="img/trabajo6.jpg" alt="Lorem Ipsum" />
+            </div>
+            <div class="description">
+              <p class="name">Lorem Ipsum</p>
+              <p class="category">HTML - CSS - PHP</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </section>
+
+    <section id="section-skills">
+      <div class="container">
+        <h3 class="title">Habilidades</h3>
+        <div class="container-skills">
+          <div class="skill">
+            <div class="icon-skill">
+              <i class="fa-brands fa-html5"></i>
+            </div>
+            <div class="description">
+              <p class="name">HTML</p>
+              <p class="category">Intermedio</p>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="icon-skill">
+              <i class="fa-brands fa-java"></i>
+            </div>
+            <div class="description">
+              <p class="name">Java</p>
+              <p class="category">Intermedio</p>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="icon-skill">
+              <i class="fa-brands fa-python"></i>
+            </div>
+            <div class="description">
+              <p class="name">Python</p>
+              <p class="category">Intermedio</p>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="icon-skill">
+              <i class="fa-brands fa-js"></i>
+            </div>
+            <div class="description">
+              <p class="name">JavaScript</p>
+              <p class="category">Intermedio</p>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="icon-skill">
+              <i class="fa-brands fa-microsoft"></i>
+            </div>
+            <div class="description">
+              <p class="name">C#</p>
+              <p class="category">Intermedio</p>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="icon-skill">
+              <i class="fa-brands fa-android"></i>
+            </div>
+            <div class="description">
+              <p class="name">Kotlin</p>
+              <p class="category">Intermedio</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </section>
+
+    <!-- La etiqueta <footer> representa el pie de página, donde se suele incluir información de contacto y derechos de autor. -->
+      <footer>
+        <section id="section-contact">
+          <div class="container">
+            <h3 class="title">Contacto</h3>
+            <form class="form-menssage" action="">
+              <div class="form-row">
+     <!-- La etiqueta <input>  crea un area de texto de varias lineas donde el usuario puede ingresar datos. -->
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="email" name="email" placeholder="Correo" required>
+              </div>
+              <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+              <input class="btn-send-msg" type="submit" value="Enviar">
+            </form>
+          </div>
+        </section>
+        </div>
+      
+        <section id="section-socialMedia">
+          <div class="container">
+            <a class="facebook" href="http://www.facebook.com/" aria-label="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a class="youtube" href="http://www.youtube.com/" aria-label="YouTube">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a class="github" href="https://github.com" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+        </section>
+      </footer>
+
